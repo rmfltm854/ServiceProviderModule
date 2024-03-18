@@ -26,7 +26,7 @@ public class humanResourceEntity {
     @Column(nullable = false, name="age")
     private int age;
 
-    @Column(nullable = false, name="HID")
+    @Column(nullable = false, name="HID",unique = true)
     private String HID;
 
     @Column(nullable = false, name="PW")

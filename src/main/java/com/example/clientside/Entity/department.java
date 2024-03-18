@@ -18,7 +18,7 @@ public class department {
     private Long idx;
 
     @ManyToOne
-    @JoinColumn(name="HID",referencedColumnName = "HID")
+    @JoinColumn(name="HID",referencedColumnName = "HID",unique = true)
     private humanResourceEntity HID;
 
     @ManyToOne
