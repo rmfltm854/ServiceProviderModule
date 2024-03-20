@@ -14,6 +14,7 @@ import com.example.clientside.ServiceSide.trackingModule.traking;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Optional;
 
 
 @RestController
@@ -30,13 +31,6 @@ public class clientController{
         track.init();
     }
 
-//    @GetMapping("/login")
-//    public String test(){
-//        log.info("loginPage이동 ");
-//        System.out.println("return LoginPage");
-//        return "mainPage";
-//    }
-
     @GetMapping("/getUser")
     public humanResourceDto  getUser(){
         humanResourceDto result = service.getUserInfo("20193290");//전달받은 dto객체 반환.
@@ -52,8 +46,9 @@ public class clientController{
     }
 
     @GetMapping("/department")
-    public List<department>  searchUser(){
-        List<department> departInfo = service.findDepartmentByHID("20193290");
+    public Optional<department>  searchUser(){
+        Optional<department> departInfo = service.findDepartmentByHID("20193290");
+        System.out.println(departInfo.getClass());
         return departInfo;
     }
 }

@@ -30,11 +30,9 @@ public class SecurityConfig {
                 // 특정 URL에 대한 권한 설정.
                 .authorizeHttpRequests((authorizeRequests) -> {
                     authorizeRequests.requestMatchers(PathRequest.toStaticResources().atCommonLocations()).permitAll();//resources파일들 설정.
-                    authorizeRequests.requestMatchers("/user/**").authenticated();
-
-                    authorizeRequests.requestMatchers("/manager/**")
+                    authorizeRequests.requestMatchers("/admin/**")
                             // ROLE_은 붙이면 안 된다. hasAnyRole()을 사용할 때 자동으로 ROLE_이 붙기 때문이다.
-                            .hasAnyRole("ADMIN", "MANAGER");
+                            .hasAnyRole("ADMIN");
 
 //                    authorizeRequests.requestMatchers("/admin/**")
 //                            // ROLE_은 붙이면 안 된다. hasRole()을 사용할 때 자동으로 ROLE_이 붙기 때문이다.

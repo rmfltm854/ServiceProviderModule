@@ -3,12 +3,6 @@ package com.example.clientside;
 
 import com.example.clientside.DTO.departments_InfoDto;
 import com.example.clientside.DTO.humanResourceDto;
-import com.example.clientside.Entity.department;
-import com.example.clientside.Entity.departments_Info;
-import com.example.clientside.Entity.humanResourceEntity;
-import com.example.clientside.JPARepo.departmentRepo;
-import com.example.clientside.JPARepo.departments_InfoRepo;
-import com.example.clientside.JPARepo.humanResourceRepo;
 import com.example.clientside.Service.ClientService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -16,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
-import java.util.Optional;
+
 
 @SpringBootTest
 class ClientSideApplicationTests {

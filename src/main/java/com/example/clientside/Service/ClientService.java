@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ClientService {
@@ -53,9 +54,9 @@ public class ClientService {
         return resultDto;
     }
 
-    public List<department> findDepartmentByHID(String HID){//각부서별 구성원 획득
+    public Optional<department> findDepartmentByHID(String HID){//각부서별 구성원 획득
         humanResourceEntity userInfo = HR.findByHID(HID);
-        List<department> HR = DR.findDepartmentByHID(userInfo);
+        Optional<department> HR = DR.findDepartmentByHID(userInfo);
         System.out.println(HR);
         return HR;
     }
