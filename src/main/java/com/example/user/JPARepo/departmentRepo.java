@@ -1,11 +1,9 @@
-package com.example.clientside.JPARepo;
+package com.example.user.JPARepo;
 
-import com.example.clientside.Entity.department;
-import com.example.clientside.Entity.humanResourceEntity;
+import com.example.user.Entity.department;
+import com.example.user.Entity.humanResourceEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
-import java.util.List;
 import java.util.Optional;
 
 

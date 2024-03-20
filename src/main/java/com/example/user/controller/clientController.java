@@ -1,16 +1,13 @@
-package com.example.clientside.controller;
+package com.example.user.controller;
 
-import com.example.clientside.DTO.humanResourceDto;
-import com.example.clientside.Entity.department;
-import com.example.clientside.Entity.humanResourceEntity;
-import com.example.clientside.Service.ClientService;
+import com.example.user.DTO.humanResourceDto;
+import com.example.user.Entity.department;
+import com.example.user.Service.ClientService;
 import jakarta.annotation.PostConstruct;
-import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import com.example.clientside.ServiceSide.trackingModule.traking;
+import com.example.user.ServiceSide.trackingModule.traking;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;

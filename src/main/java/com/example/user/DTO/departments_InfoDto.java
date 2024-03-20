@@ -1,7 +1,6 @@
-package com.example.clientside.DTO;
+package com.example.user.DTO;
 
-import com.example.clientside.Entity.departments_Info;
-import com.example.clientside.Entity.humanResourceEntity;
+import com.example.user.Entity.departments_Info;
 import lombok.*;
 
 @Setter

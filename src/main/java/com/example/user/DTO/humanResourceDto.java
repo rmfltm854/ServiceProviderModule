@@ -1,6 +1,6 @@
-package com.example.clientside.DTO;
+package com.example.user.DTO;
 
-import com.example.clientside.Entity.humanResourceEntity;
+import com.example.user.Entity.humanResourceEntity;
 import lombok.*;
 
 

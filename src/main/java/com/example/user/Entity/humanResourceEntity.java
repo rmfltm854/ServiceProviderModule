@@ -1,13 +1,11 @@
-package com.example.clientside.Entity;
+package com.example.user.Entity;
 
-import com.example.clientside.DTO.humanResourceDto;
+import com.example.user.DTO.humanResourceDto;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.List;
 
 
 @Getter

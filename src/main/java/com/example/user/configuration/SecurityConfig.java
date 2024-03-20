@@ -1,4 +1,4 @@
-package com.example.clientside.configuration;
+package com.example.user.configuration;
 
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;

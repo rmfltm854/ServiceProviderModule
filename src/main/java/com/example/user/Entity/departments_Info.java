@@ -1,6 +1,6 @@
-package com.example.clientside.Entity;
+package com.example.user.Entity;
 
-import com.example.clientside.DTO.departments_InfoDto;
+import com.example.user.DTO.departments_InfoDto;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;

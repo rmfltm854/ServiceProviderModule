@@ -1,9 +1,9 @@
-package com.example.clientside;
+package com.example.user;
 
 
-import com.example.clientside.DTO.departments_InfoDto;
-import com.example.clientside.DTO.humanResourceDto;
-import com.example.clientside.Service.ClientService;
+import com.example.user.DTO.departments_InfoDto;
+import com.example.user.DTO.humanResourceDto;
+import com.example.user.Service.ClientService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

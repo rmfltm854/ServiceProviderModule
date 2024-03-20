@@ -1,7 +1,6 @@
-package com.example.clientside.Entity;
+package com.example.user.Entity;
 
 
-import com.example.clientside.DTO.departmentDto;
 import jakarta.persistence.*;
 import lombok.*;
 

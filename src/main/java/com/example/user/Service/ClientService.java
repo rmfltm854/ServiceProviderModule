@@ -1,14 +1,13 @@
-package com.example.clientside.Service;
+package com.example.user.Service;
 
-import com.example.clientside.DTO.departmentDto;
-import com.example.clientside.DTO.departments_InfoDto;
-import com.example.clientside.DTO.humanResourceDto;
-import com.example.clientside.Entity.department;
-import com.example.clientside.Entity.departments_Info;
-import com.example.clientside.Entity.humanResourceEntity;
-import com.example.clientside.JPARepo.departmentRepo;
-import com.example.clientside.JPARepo.departments_InfoRepo;
-import com.example.clientside.JPARepo.humanResourceRepo;
+import com.example.user.DTO.departments_InfoDto;
+import com.example.user.DTO.humanResourceDto;
+import com.example.user.Entity.department;
+import com.example.user.Entity.departments_Info;
+import com.example.user.Entity.humanResourceEntity;
+import com.example.user.JPARepo.departmentRepo;
+import com.example.user.JPARepo.departments_InfoRepo;
+import com.example.user.JPARepo.humanResourceRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
